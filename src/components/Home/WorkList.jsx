@@ -12,7 +12,7 @@ const WorkList = () => {
         {
             workList.map((item, i) =>
                 <div className='text-center md:text-left' key={i}>
-                    <h1 className='text-orange-500 font-semibold'>{item.heading}</h1>
+                    <h1 className='text-green-500 font-semibold'>{item.heading}</h1>
                     <h1 className='text-2xl font-bold md:w-[30%] pt-8 pb-[100px]'>{item.subHeading}</h1>
                 </div>
              )

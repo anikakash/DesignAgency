@@ -9,7 +9,7 @@ const FeaturedProduct = () => {
             {
                 featured.map((item, i) => 
                 <div key={i}>
-                    <p className='text-orange-500 font-semibold text-lg'>{item.title}</p>
+                    <p className='text-green-500 font-semibold text-lg'>{item.title}</p>
                     <p className='pt-5 w-[30%] text-2xl font-bold'>{item.subtitle}</p>
                 </div>
                 )

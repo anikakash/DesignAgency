@@ -7,7 +7,7 @@ const Team = () => {
     return (
         <Layout>
             <div className='container mx-auto'>
-                <h1 className='text-xl font-bold py-5 text-orange-500'>OUR TEAM MEMBER</h1>
+                <h1 className='text-xl font-bold py-5 text-green-500'>OUR TEAM MEMBER</h1>
                 <p className='text-2xl w-[60%] pb-5'>Check our awesome team members</p>
             </div>
 

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "/projects/project_1.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "/projects/project_2.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "/projects/project_3.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "/projects/project_4.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "/projects/project_5.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "./projects/project_6.jpg"
+  }
+]

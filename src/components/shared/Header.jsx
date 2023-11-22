@@ -6,37 +6,37 @@ import { FaAlignLeft } from "react-icons/fa6";
 const Header = () => {
   return (
     <>
-    <div className="hidden md:block bg-orange-400 sticky top-0 left-0 z-[99999]">
+    <div className="hidden md:block bg-green-300 sticky top-0 left-0 z-[99999]">
       <div className="header-area px-2 lg:px-10 grid grid-cols-12 ">
           <div className="col-span-4">
-            <h3 className="py-8 xl:py-10 text-2xl font-bold xl:text-center">Design<span className="text-white">Agency</span></h3>
+            <h3 className="py-8 xl:py-10 text-2xl font-bold xl:text-center">Design<span className="text-orange-500">AGENCY</span></h3>
           </div>
 
           <div className="col-span-8">
 
             <ul className="flex float-right">
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Home</NavLink>
+                <NavLink to='/' className={({ isActive }) => isActive? "active text-lg font-semibold": ''}>Home</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/team' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Team</NavLink>
+                <NavLink to='/team' className={({ isActive }) => isActive? "active text-lg font-semibold": ''}>Team</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/service' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Service</NavLink>
+                <NavLink to='/service' className={({ isActive }) => isActive? "active text-lg font-semibold": ''}>Service</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/projects' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Projects</NavLink>
+                <NavLink to='/projects' className={({ isActive }) => isActive? "active text-lg font-semibold": ''}>Projects</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/testimonials' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Testimonials</NavLink>
+                <NavLink to='/testimonials' className={({ isActive }) => isActive? "active text-lg font-semibold": ''}>Testimonials</NavLink>
               </li>
               <li className="py-8 px-2 lg:px-5">
-                <button className="btn btn-outline btn-primary">
+                <button className="btn btn-outline border-green-500">
                   <NavLink to=''>Login</NavLink>
                 </button>
               </li>
               <li className="py-8 px-2 lg:px-5">
-                <button className="btn btn-secondary">
+                <button className="btn bg-green-500">
                   <NavLink to=''>Register</NavLink>
                 </button>
               </li>
